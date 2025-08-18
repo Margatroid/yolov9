@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pip install -r requirements.txt -q
+
 python train_dual.py \
 --workers 32 \
 --batch-size 16 \
