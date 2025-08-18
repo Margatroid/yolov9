@@ -11,7 +11,7 @@ python train_dual.py \
 --data /content/data.yaml \
 --weights /content/yolov9/weights/yolov9-c.pt \
 --cfg /content/yolov9/models/detect/yolov9-c.yaml \
---hyp /content/yolov9/data/hyps/hyp.scratch-low.yaml \
+--hyp /content/yolov9/data/hyps/hyp.scratch-high.yaml \
 --project /content/yolov9_training_output \
 --name hello_world \
 --exist-ok
